@@ -11,8 +11,10 @@ export default {
     ],
     theme: {
         extend: {
-            fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+            animation: {
+                fontFamily: {
+                    sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                },
             },
         },
     },
